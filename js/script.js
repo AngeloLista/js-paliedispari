@@ -19,3 +19,10 @@ function isPalindrome(word) {
 }
 
 console.log(isPalindrome(userWord))
+
+/* METODO CONTRATTO
+function isPalindrome(word) {
+    const reversedWord = word.split('').reverse().join('');
+    
+    return word === reversedWord ? true : false;
+}*/
